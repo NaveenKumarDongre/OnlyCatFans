@@ -1,0 +1,154 @@
+/* 
+Colors
+
+#0000EE
+#404EED
+#5865F2
+#23272A
+#00B0F4
+#000000 
+
+*/
+
+/* Reset some default styles */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    list-style: none;
+}
+
+body {
+    
+    background-color: #404EED;
+    color: #f9f9f9;
+
+    
+}
+
+
+
+/* Header */
+header {
+    padding: 0.5rem;
+    background-color: #00172df5;
+    
+}
+
+nav {
+
+    width:90%;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+    display: flex;
+    /* gap: 5%; */
+    justify-content: space-between;
+    padding: 1rem;
+
+   
+}
+
+.logo {
+
+    font-size: 3rem;
+    font-weight: bold;
+
+    /* border: 4px solid green; */
+    
+}
+
+.nav-links {
+
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    gap:3rem;
+    /* border: 4px solid green; */
+    
+    
+}
+
+.nav-links li {
+    padding: 0.4rem;
+}
+
+.nav-links a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #f9f9f9;
+    
+}
+
+/* Hero section */
+.hero {
+    height: 70vh;
+    background-image: url('images/389.svg');
+    background-size:cover;
+    background-blend-mode: lighten;
+    color: #23272A;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+
+
+
+
+.hero h1 {
+    
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Cat gallery */
+.cat-gallery {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Community section */
+.community {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.community h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.community p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    
+}
+
+
+/* Media Queries for Mobile Responsiveness */
+
+
+
